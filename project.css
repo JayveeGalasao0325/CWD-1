@@ -1,0 +1,25 @@
+header{
+    height: 45em;
+    background: url(img/p1.jpg);
+    background-size: cover;
+    position: relative;
+    margin-bottom: 4em;
+}
+
+header::before{
+content: '';
+position: absolute;
+top:0;
+left:0;
+}
+
+p {max-width:35 em; }
+
+section{ padding:4em 0;}
+
+@media screen and (max-width:600px){
+    header{
+        height: 30em;
+
+    }
+}
